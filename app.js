@@ -4,7 +4,11 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
-const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí tenemos el flujo secundario'])
+const flowJoyeria = addKeyword(['joyas', '1']).addAnswer(
+    ['Perfecto👍🏼,  para poder validar tu garantía necesitamos:',
+    '✅Fotos actualizadas de lo que se dejará como garantía ',
+    '✅Carcteristicas de la joya: material y gramaje',
+    '✅Si tiene una factura o alguna revisión dada por una joyería que certifique gramaje  y valor(Es opcional igualmente se hará revisar al momento del préstamo)'])
 
 const flowNanny = addKeyword(['Soy Nanny', 'Nanny']).addAnswer(
     [
@@ -13,8 +17,7 @@ const flowNanny = addKeyword(['Soy Nanny', 'Nanny']).addAnswer(
         '*Será un placer ayudarte, por favor avísanos ni bien llenes el formulario y lo envies*',
     ],
     null,
-    null,
-    [flowSecundario]
+    null
 )
 
 const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
@@ -24,8 +27,7 @@ const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
         '\n*2* Para siguiente paso.',
     ],
     null,
-    null,
-    [flowSecundario]
+    null
 )
 
 const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
@@ -37,15 +39,13 @@ const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
         '\n*2* Para siguiente paso.',
     ],
     null,
-    null,
-    [flowSecundario]
+    null
 )
 
 const flowDiscord = addKeyword(['discord']).addAnswer(
     ['🤪 Únete al discord', 'https://link.codigoencasa.com/DISCORD', '\n*2* Para siguiente paso.'],
     null,
-    null,
-    [flowSecundario]
+    null
 )
 let nombre;
 let monto;
@@ -135,6 +135,12 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
         cbba = ctx.body
         return flowDynamic(`Perfecto continuamos..`)
         }
+    )
+    .addAnswer(
+        ['Nuestro único requisito para acceder al préstamo es contar con una garantía que supere el monto que nos solicitó','Escoja el tipo de garantia con el que cuenta','*1* Para Joyeria','*2* Para eléctronicos y objetos de valor','*3* Para Papeles de motorizado o inmueble'],
+        null,
+        null,
+        [flowJoyeria]
     )
 
 const main = async () => {
