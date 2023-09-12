@@ -76,7 +76,7 @@ const flowDiscord = addKeyword(['discord']).addAnswer(
 )
 let nombre;
 let monto;
-let telefono;
+let tiempo;
 
 const flowFormulario = addKeyword(['formulario','⬅️ Volver al Inicio'])
     .addAnswer(
@@ -161,6 +161,15 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
         })
         cbba = ctx.body
         return flowDynamic(`Perfecto continuamos..`)
+        }
+    )
+    .addAnswer(
+        ['¿Por cuanto tiempo requiere el préstamo?'],
+        { capture: true},
+
+        async (ctx, { flowDynamic, endFlow }) => {
+            tiempo = ctx.body
+            return flowDynamic(`Perfecto registrado...`)
         }
     )
     .addAnswer(
