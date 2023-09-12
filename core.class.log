@@ -1,0 +1,633 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '59160793960@s.whatsapp.net',
+    fromMe: false,
+    id: '584A94ED832F8459793F5B9556AFFF3F',
+    participant: undefined
+  },
+  messageTimestamp: 1694542568,
+  pushName: 'Angy Encinas',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  verifiedBizName: 'Angy Encinas',
+  body: 'Hola',
+  from: '59160793960'
+}
+[sendQueue_A]:  {
+  ref: 'ans_779bfb64-6423-416e-bddd-50343fe0da12',
+  keyword: 'key_0175a5c8-a9d5-4cfa-8277-4f7d243dbcba',
+  answer: '¡Hola! 😊 Gracias por contactarte con PrestoYa.💸 Estamos recibiendo una alta demanda de mensajes en este momento, *por lo que te pedimos paciencia.*⚠️',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '53f03786b475f843e51027ceda266749'
+}
+[sendProviderAndSave]:  {
+  ref: 'ans_779bfb64-6423-416e-bddd-50343fe0da12',
+  keyword: 'key_0175a5c8-a9d5-4cfa-8277-4f7d243dbcba',
+  answer: '¡Hola! 😊 Gracias por contactarte con PrestoYa.💸 Estamos recibiendo una alta demanda de mensajes en este momento, *por lo que te pedimos paciencia.*⚠️',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '53f03786b475f843e51027ceda266749'
+}
+[providerClass.sendMessage]:  {
+  ref: 'ans_779bfb64-6423-416e-bddd-50343fe0da12',
+  keyword: 'key_0175a5c8-a9d5-4cfa-8277-4f7d243dbcba',
+  answer: '¡Hola! 😊 Gracias por contactarte con PrestoYa.💸 Estamos recibiendo una alta demanda de mensajes en este momento, *por lo que te pedimos paciencia.*⚠️',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '53f03786b475f843e51027ceda266749'
+}
+[databaseClass.save]:  {
+  ref: 'ans_779bfb64-6423-416e-bddd-50343fe0da12',
+  keyword: 'key_0175a5c8-a9d5-4cfa-8277-4f7d243dbcba',
+  answer: '¡Hola! 😊 Gracias por contactarte con PrestoYa.💸 Estamos recibiendo una alta demanda de mensajes en este momento, *por lo que te pedimos paciencia.*⚠️',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '53f03786b475f843e51027ceda266749'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_779bfb64-6423-416e-bddd-50343fe0da12',
+  keyword: 'key_0175a5c8-a9d5-4cfa-8277-4f7d243dbcba',
+  answer: '¡Hola! 😊 Gracias por contactarte con PrestoYa.💸 Estamos recibiendo una alta demanda de mensajes en este momento, *por lo que te pedimos paciencia.*⚠️',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '53f03786b475f843e51027ceda266749'
+}
+[sendQueue_A]:  {
+  ref: 'ans_3e2bf005-08b6-46e6-b265-3c7060e13d9c',
+  keyword: 'ans_779bfb64-6423-416e-bddd-50343fe0da12',
+  answer: 'Queremos informarte que en PrestoYa realizamos microprestamos *desde 100 bs hasta 14000 bs*,🤑 con plazos flexibles que van desde *1 día hasta 2 años*.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2daca55bfb95238f6aa965da2c22e354'
+}
+[sendProviderAndSave]:  {
+  ref: 'ans_3e2bf005-08b6-46e6-b265-3c7060e13d9c',
+  keyword: 'ans_779bfb64-6423-416e-bddd-50343fe0da12',
+  answer: 'Queremos informarte que en PrestoYa realizamos microprestamos *desde 100 bs hasta 14000 bs*,🤑 con plazos flexibles que van desde *1 día hasta 2 años*.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2daca55bfb95238f6aa965da2c22e354'
+}
+[providerClass.sendMessage]:  {
+  ref: 'ans_3e2bf005-08b6-46e6-b265-3c7060e13d9c',
+  keyword: 'ans_779bfb64-6423-416e-bddd-50343fe0da12',
+  answer: 'Queremos informarte que en PrestoYa realizamos microprestamos *desde 100 bs hasta 14000 bs*,🤑 con plazos flexibles que van desde *1 día hasta 2 años*.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2daca55bfb95238f6aa965da2c22e354'
+}
+[databaseClass.save]:  {
+  ref: 'ans_3e2bf005-08b6-46e6-b265-3c7060e13d9c',
+  keyword: 'ans_779bfb64-6423-416e-bddd-50343fe0da12',
+  answer: 'Queremos informarte que en PrestoYa realizamos microprestamos *desde 100 bs hasta 14000 bs*,🤑 con plazos flexibles que van desde *1 día hasta 2 años*.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2daca55bfb95238f6aa965da2c22e354'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_3e2bf005-08b6-46e6-b265-3c7060e13d9c',
+  keyword: 'ans_779bfb64-6423-416e-bddd-50343fe0da12',
+  answer: 'Queremos informarte que en PrestoYa realizamos microprestamos *desde 100 bs hasta 14000 bs*,🤑 con plazos flexibles que van desde *1 día hasta 2 años*.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2daca55bfb95238f6aa965da2c22e354'
+}
+[sendQueue_A]:  {
+  ref: 'ans_55096408-43af-40c9-b494-4068044a7d93',
+  keyword: 'ans_3e2bf005-08b6-46e6-b265-3c7060e13d9c',
+  answer: 'El *UNICO REQUISITO* que solicitamos es *contar con una garantía* que supere el monto a ser prestado. Actualmente, nos encontramos en *Cochabamba*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'b9241a417474f1d12e7e6b6fc86f7306'
+}
+[sendProviderAndSave]:  {
+  ref: 'ans_55096408-43af-40c9-b494-4068044a7d93',
+  keyword: 'ans_3e2bf005-08b6-46e6-b265-3c7060e13d9c',
+  answer: 'El *UNICO REQUISITO* que solicitamos es *contar con una garantía* que supere el monto a ser prestado. Actualmente, nos encontramos en *Cochabamba*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'b9241a417474f1d12e7e6b6fc86f7306'
+}
+[providerClass.sendMessage]:  {
+  ref: 'ans_55096408-43af-40c9-b494-4068044a7d93',
+  keyword: 'ans_3e2bf005-08b6-46e6-b265-3c7060e13d9c',
+  answer: 'El *UNICO REQUISITO* que solicitamos es *contar con una garantía* que supere el monto a ser prestado. Actualmente, nos encontramos en *Cochabamba*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'b9241a417474f1d12e7e6b6fc86f7306'
+}
+[databaseClass.save]:  {
+  ref: 'ans_55096408-43af-40c9-b494-4068044a7d93',
+  keyword: 'ans_3e2bf005-08b6-46e6-b265-3c7060e13d9c',
+  answer: 'El *UNICO REQUISITO* que solicitamos es *contar con una garantía* que supere el monto a ser prestado. Actualmente, nos encontramos en *Cochabamba*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'b9241a417474f1d12e7e6b6fc86f7306'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_55096408-43af-40c9-b494-4068044a7d93',
+  keyword: 'ans_3e2bf005-08b6-46e6-b265-3c7060e13d9c',
+  answer: 'El *UNICO REQUISITO* que solicitamos es *contar con una garantía* que supere el monto a ser prestado. Actualmente, nos encontramos en *Cochabamba*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'b9241a417474f1d12e7e6b6fc86f7306'
+}
+[sendQueue_A]:  {
+  ref: 'ans_0a3e1336-2bd7-45b2-8f07-43f9316a0cae',
+  keyword: 'ans_55096408-43af-40c9-b494-4068044a7d93',
+  answer: 'Ahora atenderemos tu solicitud\n¿Cuál es tu nombre?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'dc7b7e38a0253fa2bd292ff88da734dd'
+}
+[sendProviderAndSave]:  {
+  ref: 'ans_0a3e1336-2bd7-45b2-8f07-43f9316a0cae',
+  keyword: 'ans_55096408-43af-40c9-b494-4068044a7d93',
+  answer: 'Ahora atenderemos tu solicitud\n¿Cuál es tu nombre?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'dc7b7e38a0253fa2bd292ff88da734dd'
+}
+[providerClass.sendMessage]:  {
+  ref: 'ans_0a3e1336-2bd7-45b2-8f07-43f9316a0cae',
+  keyword: 'ans_55096408-43af-40c9-b494-4068044a7d93',
+  answer: 'Ahora atenderemos tu solicitud\n¿Cuál es tu nombre?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'dc7b7e38a0253fa2bd292ff88da734dd'
+}
+[databaseClass.save]:  {
+  ref: 'ans_0a3e1336-2bd7-45b2-8f07-43f9316a0cae',
+  keyword: 'ans_55096408-43af-40c9-b494-4068044a7d93',
+  answer: 'Ahora atenderemos tu solicitud\n¿Cuál es tu nombre?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'dc7b7e38a0253fa2bd292ff88da734dd'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0a3e1336-2bd7-45b2-8f07-43f9316a0cae',
+  keyword: 'ans_55096408-43af-40c9-b494-4068044a7d93',
+  answer: 'Ahora atenderemos tu solicitud\n¿Cuál es tu nombre?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'dc7b7e38a0253fa2bd292ff88da734dd'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '59160793960@s.whatsapp.net',
+    fromMe: false,
+    id: 'DA98C48F5055CB815650713D62CB9497',
+    participant: undefined
+  },
+  messageTimestamp: 1694542577,
+  pushName: 'Angy Encinas',
+  broadcast: false,
+  message: Message {
+    conversation: 'Angy',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Angy',
+  from: '59160793960'
+}
+[sendProviderAndSave]:  {
+  ref: '185e92f6-2296-4031-9274-6f526a4551d9',
+  keyword: undefined,
+  answer: 'Encantado *Angy*, comencemos...',
+  options: { media: null, buttons: [], capture: false, delay: 0 },
+  from: '59160793960',
+  refSerialize: '9a6d2f3840e2293d55bf53b45ad3e422'
+}
+[providerClass.sendMessage]:  {
+  ref: '185e92f6-2296-4031-9274-6f526a4551d9',
+  keyword: undefined,
+  answer: 'Encantado *Angy*, comencemos...',
+  options: { media: null, buttons: [], capture: false, delay: 0 },
+  from: '59160793960',
+  refSerialize: '9a6d2f3840e2293d55bf53b45ad3e422'
+}
+[databaseClass.save]:  {
+  ref: '185e92f6-2296-4031-9274-6f526a4551d9',
+  keyword: undefined,
+  answer: 'Encantado *Angy*, comencemos...',
+  options: { media: null, buttons: [], capture: false, delay: 0 },
+  from: '59160793960',
+  refSerialize: '9a6d2f3840e2293d55bf53b45ad3e422'
+}
+[sendQueue_A]:  {
+  ref: 'ans_8a869c15-b16e-4f33-abd5-c82497620b61',
+  keyword: 'ans_0a3e1336-2bd7-45b2-8f07-43f9316a0cae',
+  answer: '¿Cuál es el monto que deseas solicitar?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '4fd0bebcae5c9f5cabf2aa35a7e47037'
+}
+[sendProviderAndSave]:  {
+  ref: 'ans_8a869c15-b16e-4f33-abd5-c82497620b61',
+  keyword: 'ans_0a3e1336-2bd7-45b2-8f07-43f9316a0cae',
+  answer: '¿Cuál es el monto que deseas solicitar?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '4fd0bebcae5c9f5cabf2aa35a7e47037'
+}
+[providerClass.sendMessage]:  {
+  ref: 'ans_8a869c15-b16e-4f33-abd5-c82497620b61',
+  keyword: 'ans_0a3e1336-2bd7-45b2-8f07-43f9316a0cae',
+  answer: '¿Cuál es el monto que deseas solicitar?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '4fd0bebcae5c9f5cabf2aa35a7e47037'
+}
+[databaseClass.save]:  {
+  ref: 'ans_8a869c15-b16e-4f33-abd5-c82497620b61',
+  keyword: 'ans_0a3e1336-2bd7-45b2-8f07-43f9316a0cae',
+  answer: '¿Cuál es el monto que deseas solicitar?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '4fd0bebcae5c9f5cabf2aa35a7e47037'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8a869c15-b16e-4f33-abd5-c82497620b61',
+  keyword: 'ans_0a3e1336-2bd7-45b2-8f07-43f9316a0cae',
+  answer: '¿Cuál es el monto que deseas solicitar?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '4fd0bebcae5c9f5cabf2aa35a7e47037'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '59160793960@s.whatsapp.net',
+    fromMe: false,
+    id: '40592C9008D497142A96691F33D78A7D',
+    participant: undefined
+  },
+  messageTimestamp: 1694542582,
+  pushName: 'Angy Encinas',
+  broadcast: false,
+  message: Message {
+    conversation: '1500',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1500',
+  from: '59160793960'
+}
+[sendProviderAndSave]:  {
+  ref: '129956f0-d7d2-47b1-b4f1-58e89daae0b0',
+  keyword: undefined,
+  answer: 'Perfecto...',
+  options: { media: null, buttons: [], capture: false, delay: 0 },
+  from: '59160793960',
+  refSerialize: 'a44998803bdaaae2098be5440264f587'
+}
+[providerClass.sendMessage]:  {
+  ref: '129956f0-d7d2-47b1-b4f1-58e89daae0b0',
+  keyword: undefined,
+  answer: 'Perfecto...',
+  options: { media: null, buttons: [], capture: false, delay: 0 },
+  from: '59160793960',
+  refSerialize: 'a44998803bdaaae2098be5440264f587'
+}
+[databaseClass.save]:  {
+  ref: '129956f0-d7d2-47b1-b4f1-58e89daae0b0',
+  keyword: undefined,
+  answer: 'Perfecto...',
+  options: { media: null, buttons: [], capture: false, delay: 0 },
+  from: '59160793960',
+  refSerialize: 'a44998803bdaaae2098be5440264f587'
+}
+[sendQueue_A]:  {
+  ref: 'ans_0d5a173d-03de-4451-a6e3-31bfc4fceb04',
+  keyword: 'ans_8a869c15-b16e-4f33-abd5-c82497620b61',
+  answer: '¿Se encuentra en la ciudad de Cochabamba?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '4a6d93162c911c16f7dcd529b694ffb0'
+}
+[sendProviderAndSave]:  {
+  ref: 'ans_0d5a173d-03de-4451-a6e3-31bfc4fceb04',
+  keyword: 'ans_8a869c15-b16e-4f33-abd5-c82497620b61',
+  answer: '¿Se encuentra en la ciudad de Cochabamba?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '4a6d93162c911c16f7dcd529b694ffb0'
+}
+[providerClass.sendMessage]:  {
+  ref: 'ans_0d5a173d-03de-4451-a6e3-31bfc4fceb04',
+  keyword: 'ans_8a869c15-b16e-4f33-abd5-c82497620b61',
+  answer: '¿Se encuentra en la ciudad de Cochabamba?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '4a6d93162c911c16f7dcd529b694ffb0'
+}
+[databaseClass.save]:  {
+  ref: 'ans_0d5a173d-03de-4451-a6e3-31bfc4fceb04',
+  keyword: 'ans_8a869c15-b16e-4f33-abd5-c82497620b61',
+  answer: '¿Se encuentra en la ciudad de Cochabamba?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '4a6d93162c911c16f7dcd529b694ffb0'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0d5a173d-03de-4451-a6e3-31bfc4fceb04',
+  keyword: 'ans_8a869c15-b16e-4f33-abd5-c82497620b61',
+  answer: '¿Se encuentra en la ciudad de Cochabamba?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '4a6d93162c911c16f7dcd529b694ffb0'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '59160793960@s.whatsapp.net',
+    fromMe: false,
+    id: '0D9B6CE007F065037B89DEBCCAEEE016',
+    participant: undefined
+  },
+  messageTimestamp: 1694542586,
+  pushName: 'Angy Encinas',
+  broadcast: false,
+  message: Message {
+    conversation: 'Si',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Si',
+  from: '59160793960'
+}
+[sendProviderAndSave]:  {
+  ref: '0f1d0940-c58f-4caf-9abc-f7650e3d94e5',
+  keyword: undefined,
+  answer: 'Perfecto continuamos..',
+  options: { media: null, buttons: [], capture: false, delay: 0 },
+  from: '59160793960',
+  refSerialize: 'a0801828558446758e9b11ea22587173'
+}
+[providerClass.sendMessage]:  {
+  ref: '0f1d0940-c58f-4caf-9abc-f7650e3d94e5',
+  keyword: undefined,
+  answer: 'Perfecto continuamos..',
+  options: { media: null, buttons: [], capture: false, delay: 0 },
+  from: '59160793960',
+  refSerialize: 'a0801828558446758e9b11ea22587173'
+}
+[databaseClass.save]:  {
+  ref: '0f1d0940-c58f-4caf-9abc-f7650e3d94e5',
+  keyword: undefined,
+  answer: 'Perfecto continuamos..',
+  options: { media: null, buttons: [], capture: false, delay: 0 },
+  from: '59160793960',
+  refSerialize: 'a0801828558446758e9b11ea22587173'
+}
