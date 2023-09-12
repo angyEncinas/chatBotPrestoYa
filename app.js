@@ -4,18 +4,39 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
-const flowJoyeria = addKeyword(['joyas', '1']).addAnswer(
-    ['Perfecto👍🏼,  para poder validar tu garantía necesitamos:',
-    '✅Fotos actualizadas de lo que se dejará como garantía ',
-    '✅Carcteristicas de la joya: material y gramaje',
-    '✅Si tiene una factura o alguna revisión dada por una joyería que certifique gramaje  y valor(Es opcional igualmente se hará revisar al momento del préstamo)'])
-const flowElectronicos = addKeyword(['electronicos','2']).addAnswer(
-    ['Perfecto👍🏼,  para poder validar tu garantía necesitamos:',
-    '✅Fotos actualizadas del estado actual del electrónico',
-    '✅Factura de compra( opcional)',
-    '✅ Características, modelo, año (si es un dispositivo electrónico enviar una foto de las especificaciones)'
-    ]
-)
+const flowJoyeria = addKeyword(['joyas', '1'])
+    .addAnswer(
+        ['Perfecto👍🏼,  para poder validar tu garantía necesitamos:',
+        '✅Fotos actualizadas de lo que se dejará como garantía ',
+        '✅Carcteristicas de la joya: material y gramaje',
+        '✅Si tiene una factura o alguna revisión dada por una joyería que certifique gramaje  y valor(Es opcional igualmente se hará revisar al momento del préstamo)'
+         ]
+    )
+    .addAnswer(
+        ['Una vez enviadas las fotos y datos que te solicitamos te haremos llegar una tabla con la/las cuotas de pago con información exacta del interés por el préstamo']
+    )
+const flowElectronicos = addKeyword(['electronicos','2'])
+    .addAnswer(
+        ['Perfecto👍🏼,  para poder validar tu garantía necesitamos:',
+        '✅Fotos actualizadas del estado actual del electrónico',
+        '✅Factura de compra( opcional)',
+        '✅ Características, modelo, año (si es un dispositivo electrónico enviar una foto de las especificaciones)'
+        ]
+    )
+    .addAnswer(
+        ['Una vez enviadas las fotos y datos que te solicitamos te haremos llegar una tabla con la/las cuotas de pago con información exacta del interés por el préstamo']
+    )
+const flowPapeles = addKeyword(['Papeles','3'])
+    .addAnswer('Queremos informarte que esta modalidad de préstamo no es tan rápida ya que se deben revisar a detalle los papeles y su validez asi que te pedimos paciencia')
+        .addAnswer(
+        ['Perfecto👍🏼,  para poder validar tu garantía necesitamos:',
+        '✅Fotos actuales del motorizado o inmueble',
+        '✅Foto de los documento que certifiquen que es el dueño de la garantía', 
+        '✅ Características generales como ser: modelo, etc']
+    )
+    .addAnswer(
+        ['Una vez enviadas las fotos y datos que te solicitamos te haremos llegar una tabla con la/las cuotas de pago con información exacta del interés por el préstamo']
+    )
 const flowNanny = addKeyword(['Soy Nanny', 'Nanny']).addAnswer(
     [
         'Perfecto 😊Gracias a la alianza que tenemos el único requisito es que estes habilitada por Nannys para realizar el préstamo, para esto necesitamos que llenes este formulario para poder evaluar tu solicitud de préstamo 💵 ',
@@ -144,9 +165,7 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
     )
     .addAnswer(
         ['Nuestro único requisito para acceder al préstamo es contar con una garantía que supere el monto que nos solicitó','Escoja el tipo de garantia con el que cuenta','*1* Para Joyeria','*2* Para eléctronicos y objetos de valor','*3* Para Papeles de motorizado o inmueble'],
-        null,null,
-        [flowElectronicos],
-        [flowJoyeria]
+        null,null, [flowElectronicos,flowJoyeria,flowPapeles]
     )
 
 const main = async () => {

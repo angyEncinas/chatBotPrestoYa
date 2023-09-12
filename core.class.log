@@ -2,10 +2,10 @@
   key: {
     remoteJid: '59160793960@s.whatsapp.net',
     fromMe: false,
-    id: 'F4E2382F6AF871A68872C262F2F7BCF8',
+    id: '145F1F3EFD7266AC377ACCAC1268A5AD',
     participant: undefined
   },
-  messageTimestamp: 1694545196,
+  messageTimestamp: 1694546955,
   pushName: 'Angy Encinas',
   broadcast: false,
   message: Message {
@@ -19,8 +19,8 @@
   from: '59160793960'
 }
 [sendQueue_A]:  {
-  ref: 'ans_89d73230-fc9f-4df2-972a-b3a64b25e0e6',
-  keyword: 'key_4a0a8e9e-8185-423b-9cd8-3a32c8283c47',
+  ref: 'ans_1fe40095-0791-405c-8093-dbf459cc0bab',
+  keyword: 'key_4482b1db-69f4-416d-bd88-8de564bd66c9',
   answer: '¡Hola! 😊 Gracias por contactarte con PrestoYa.💸 Estamos recibiendo una alta demanda de mensajes en este momento, *por lo que te pedimos paciencia.*⚠️',
   options: {
     media: null,
@@ -32,11 +32,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '935bbe3f51124107d69e7c4631dbcaf2'
+  refSerialize: 'fdf1d40e5802ef184962d875709df602'
 }
 [sendProviderAndSave]:  {
-  ref: 'ans_89d73230-fc9f-4df2-972a-b3a64b25e0e6',
-  keyword: 'key_4a0a8e9e-8185-423b-9cd8-3a32c8283c47',
+  ref: 'ans_1fe40095-0791-405c-8093-dbf459cc0bab',
+  keyword: 'key_4482b1db-69f4-416d-bd88-8de564bd66c9',
   answer: '¡Hola! 😊 Gracias por contactarte con PrestoYa.💸 Estamos recibiendo una alta demanda de mensajes en este momento, *por lo que te pedimos paciencia.*⚠️',
   options: {
     media: null,
@@ -48,11 +48,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '935bbe3f51124107d69e7c4631dbcaf2'
+  refSerialize: 'fdf1d40e5802ef184962d875709df602'
 }
 [providerClass.sendMessage]:  {
-  ref: 'ans_89d73230-fc9f-4df2-972a-b3a64b25e0e6',
-  keyword: 'key_4a0a8e9e-8185-423b-9cd8-3a32c8283c47',
+  ref: 'ans_1fe40095-0791-405c-8093-dbf459cc0bab',
+  keyword: 'key_4482b1db-69f4-416d-bd88-8de564bd66c9',
   answer: '¡Hola! 😊 Gracias por contactarte con PrestoYa.💸 Estamos recibiendo una alta demanda de mensajes en este momento, *por lo que te pedimos paciencia.*⚠️',
   options: {
     media: null,
@@ -64,11 +64,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '935bbe3f51124107d69e7c4631dbcaf2'
+  refSerialize: 'fdf1d40e5802ef184962d875709df602'
 }
 [databaseClass.save]:  {
-  ref: 'ans_89d73230-fc9f-4df2-972a-b3a64b25e0e6',
-  keyword: 'key_4a0a8e9e-8185-423b-9cd8-3a32c8283c47',
+  ref: 'ans_1fe40095-0791-405c-8093-dbf459cc0bab',
+  keyword: 'key_4482b1db-69f4-416d-bd88-8de564bd66c9',
   answer: '¡Hola! 😊 Gracias por contactarte con PrestoYa.💸 Estamos recibiendo una alta demanda de mensajes en este momento, *por lo que te pedimos paciencia.*⚠️',
   options: {
     media: null,
@@ -80,11 +80,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '935bbe3f51124107d69e7c4631dbcaf2'
+  refSerialize: 'fdf1d40e5802ef184962d875709df602'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_89d73230-fc9f-4df2-972a-b3a64b25e0e6',
-  keyword: 'key_4a0a8e9e-8185-423b-9cd8-3a32c8283c47',
+  ref: 'ans_1fe40095-0791-405c-8093-dbf459cc0bab',
+  keyword: 'key_4482b1db-69f4-416d-bd88-8de564bd66c9',
   answer: '¡Hola! 😊 Gracias por contactarte con PrestoYa.💸 Estamos recibiendo una alta demanda de mensajes en este momento, *por lo que te pedimos paciencia.*⚠️',
   options: {
     media: null,
@@ -96,11 +96,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '935bbe3f51124107d69e7c4631dbcaf2'
+  refSerialize: 'fdf1d40e5802ef184962d875709df602'
 }
 [sendQueue_A]:  {
-  ref: 'ans_307efbda-632b-44b4-b44c-15c3d20a31e2',
-  keyword: 'ans_89d73230-fc9f-4df2-972a-b3a64b25e0e6',
+  ref: 'ans_e4ad180f-521b-4e3b-96bc-cde1f6c46dba',
+  keyword: 'ans_1fe40095-0791-405c-8093-dbf459cc0bab',
   answer: 'Queremos informarte que en PrestoYa realizamos microprestamos *desde 100 bs hasta 14000 bs*,🤑 con plazos flexibles que van desde *1 día hasta 2 años*.',
   options: {
     media: null,
@@ -112,11 +112,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'd63601fd0e08d880f9e00dc3c70e6500'
+  refSerialize: '15e35a04880ee79bc8bb4fc74a08c525'
 }
 [sendProviderAndSave]:  {
-  ref: 'ans_307efbda-632b-44b4-b44c-15c3d20a31e2',
-  keyword: 'ans_89d73230-fc9f-4df2-972a-b3a64b25e0e6',
+  ref: 'ans_e4ad180f-521b-4e3b-96bc-cde1f6c46dba',
+  keyword: 'ans_1fe40095-0791-405c-8093-dbf459cc0bab',
   answer: 'Queremos informarte que en PrestoYa realizamos microprestamos *desde 100 bs hasta 14000 bs*,🤑 con plazos flexibles que van desde *1 día hasta 2 años*.',
   options: {
     media: null,
@@ -128,11 +128,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'd63601fd0e08d880f9e00dc3c70e6500'
+  refSerialize: '15e35a04880ee79bc8bb4fc74a08c525'
 }
 [providerClass.sendMessage]:  {
-  ref: 'ans_307efbda-632b-44b4-b44c-15c3d20a31e2',
-  keyword: 'ans_89d73230-fc9f-4df2-972a-b3a64b25e0e6',
+  ref: 'ans_e4ad180f-521b-4e3b-96bc-cde1f6c46dba',
+  keyword: 'ans_1fe40095-0791-405c-8093-dbf459cc0bab',
   answer: 'Queremos informarte que en PrestoYa realizamos microprestamos *desde 100 bs hasta 14000 bs*,🤑 con plazos flexibles que van desde *1 día hasta 2 años*.',
   options: {
     media: null,
@@ -144,11 +144,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'd63601fd0e08d880f9e00dc3c70e6500'
+  refSerialize: '15e35a04880ee79bc8bb4fc74a08c525'
 }
 [databaseClass.save]:  {
-  ref: 'ans_307efbda-632b-44b4-b44c-15c3d20a31e2',
-  keyword: 'ans_89d73230-fc9f-4df2-972a-b3a64b25e0e6',
+  ref: 'ans_e4ad180f-521b-4e3b-96bc-cde1f6c46dba',
+  keyword: 'ans_1fe40095-0791-405c-8093-dbf459cc0bab',
   answer: 'Queremos informarte que en PrestoYa realizamos microprestamos *desde 100 bs hasta 14000 bs*,🤑 con plazos flexibles que van desde *1 día hasta 2 años*.',
   options: {
     media: null,
@@ -160,11 +160,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'd63601fd0e08d880f9e00dc3c70e6500'
+  refSerialize: '15e35a04880ee79bc8bb4fc74a08c525'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_307efbda-632b-44b4-b44c-15c3d20a31e2',
-  keyword: 'ans_89d73230-fc9f-4df2-972a-b3a64b25e0e6',
+  ref: 'ans_e4ad180f-521b-4e3b-96bc-cde1f6c46dba',
+  keyword: 'ans_1fe40095-0791-405c-8093-dbf459cc0bab',
   answer: 'Queremos informarte que en PrestoYa realizamos microprestamos *desde 100 bs hasta 14000 bs*,🤑 con plazos flexibles que van desde *1 día hasta 2 años*.',
   options: {
     media: null,
@@ -176,11 +176,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'd63601fd0e08d880f9e00dc3c70e6500'
+  refSerialize: '15e35a04880ee79bc8bb4fc74a08c525'
 }
 [sendQueue_A]:  {
-  ref: 'ans_04b04bdd-ca77-4648-857f-2c2cb7b157af',
-  keyword: 'ans_307efbda-632b-44b4-b44c-15c3d20a31e2',
+  ref: 'ans_c36bfe47-8997-4139-9548-a995a8280ee6',
+  keyword: 'ans_e4ad180f-521b-4e3b-96bc-cde1f6c46dba',
   answer: 'El *UNICO REQUISITO* que solicitamos es *contar con una garantía* que supere el monto a ser prestado. Actualmente, nos encontramos en *Cochabamba*',
   options: {
     media: null,
@@ -192,11 +192,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'd5eda5b967ba8b91a672ddeab111a415'
+  refSerialize: '72478149f36d8bf24abe3b8f212326c6'
 }
 [sendProviderAndSave]:  {
-  ref: 'ans_04b04bdd-ca77-4648-857f-2c2cb7b157af',
-  keyword: 'ans_307efbda-632b-44b4-b44c-15c3d20a31e2',
+  ref: 'ans_c36bfe47-8997-4139-9548-a995a8280ee6',
+  keyword: 'ans_e4ad180f-521b-4e3b-96bc-cde1f6c46dba',
   answer: 'El *UNICO REQUISITO* que solicitamos es *contar con una garantía* que supere el monto a ser prestado. Actualmente, nos encontramos en *Cochabamba*',
   options: {
     media: null,
@@ -208,11 +208,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'd5eda5b967ba8b91a672ddeab111a415'
+  refSerialize: '72478149f36d8bf24abe3b8f212326c6'
 }
 [providerClass.sendMessage]:  {
-  ref: 'ans_04b04bdd-ca77-4648-857f-2c2cb7b157af',
-  keyword: 'ans_307efbda-632b-44b4-b44c-15c3d20a31e2',
+  ref: 'ans_c36bfe47-8997-4139-9548-a995a8280ee6',
+  keyword: 'ans_e4ad180f-521b-4e3b-96bc-cde1f6c46dba',
   answer: 'El *UNICO REQUISITO* que solicitamos es *contar con una garantía* que supere el monto a ser prestado. Actualmente, nos encontramos en *Cochabamba*',
   options: {
     media: null,
@@ -224,11 +224,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'd5eda5b967ba8b91a672ddeab111a415'
+  refSerialize: '72478149f36d8bf24abe3b8f212326c6'
 }
 [databaseClass.save]:  {
-  ref: 'ans_04b04bdd-ca77-4648-857f-2c2cb7b157af',
-  keyword: 'ans_307efbda-632b-44b4-b44c-15c3d20a31e2',
+  ref: 'ans_c36bfe47-8997-4139-9548-a995a8280ee6',
+  keyword: 'ans_e4ad180f-521b-4e3b-96bc-cde1f6c46dba',
   answer: 'El *UNICO REQUISITO* que solicitamos es *contar con una garantía* que supere el monto a ser prestado. Actualmente, nos encontramos en *Cochabamba*',
   options: {
     media: null,
@@ -240,11 +240,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'd5eda5b967ba8b91a672ddeab111a415'
+  refSerialize: '72478149f36d8bf24abe3b8f212326c6'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_04b04bdd-ca77-4648-857f-2c2cb7b157af',
-  keyword: 'ans_307efbda-632b-44b4-b44c-15c3d20a31e2',
+  ref: 'ans_c36bfe47-8997-4139-9548-a995a8280ee6',
+  keyword: 'ans_e4ad180f-521b-4e3b-96bc-cde1f6c46dba',
   answer: 'El *UNICO REQUISITO* que solicitamos es *contar con una garantía* que supere el monto a ser prestado. Actualmente, nos encontramos en *Cochabamba*',
   options: {
     media: null,
@@ -256,11 +256,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'd5eda5b967ba8b91a672ddeab111a415'
+  refSerialize: '72478149f36d8bf24abe3b8f212326c6'
 }
 [sendQueue_A]:  {
-  ref: 'ans_c33044d4-9f88-4ebf-b138-ae516ba3b45b',
-  keyword: 'ans_04b04bdd-ca77-4648-857f-2c2cb7b157af',
+  ref: 'ans_a72770cd-7777-40f1-ad00-4293aa7d1bb3',
+  keyword: 'ans_c36bfe47-8997-4139-9548-a995a8280ee6',
   answer: 'Ahora atenderemos tu solicitud\n¿Cuál es tu nombre?',
   options: {
     media: null,
@@ -272,11 +272,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'c067b4d6df08d5bc4cf4fa27fa49606f'
+  refSerialize: 'eb42d0d2b844a396684cc31dde222643'
 }
 [sendProviderAndSave]:  {
-  ref: 'ans_c33044d4-9f88-4ebf-b138-ae516ba3b45b',
-  keyword: 'ans_04b04bdd-ca77-4648-857f-2c2cb7b157af',
+  ref: 'ans_a72770cd-7777-40f1-ad00-4293aa7d1bb3',
+  keyword: 'ans_c36bfe47-8997-4139-9548-a995a8280ee6',
   answer: 'Ahora atenderemos tu solicitud\n¿Cuál es tu nombre?',
   options: {
     media: null,
@@ -288,11 +288,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'c067b4d6df08d5bc4cf4fa27fa49606f'
+  refSerialize: 'eb42d0d2b844a396684cc31dde222643'
 }
 [providerClass.sendMessage]:  {
-  ref: 'ans_c33044d4-9f88-4ebf-b138-ae516ba3b45b',
-  keyword: 'ans_04b04bdd-ca77-4648-857f-2c2cb7b157af',
+  ref: 'ans_a72770cd-7777-40f1-ad00-4293aa7d1bb3',
+  keyword: 'ans_c36bfe47-8997-4139-9548-a995a8280ee6',
   answer: 'Ahora atenderemos tu solicitud\n¿Cuál es tu nombre?',
   options: {
     media: null,
@@ -304,11 +304,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'c067b4d6df08d5bc4cf4fa27fa49606f'
+  refSerialize: 'eb42d0d2b844a396684cc31dde222643'
 }
 [databaseClass.save]:  {
-  ref: 'ans_c33044d4-9f88-4ebf-b138-ae516ba3b45b',
-  keyword: 'ans_04b04bdd-ca77-4648-857f-2c2cb7b157af',
+  ref: 'ans_a72770cd-7777-40f1-ad00-4293aa7d1bb3',
+  keyword: 'ans_c36bfe47-8997-4139-9548-a995a8280ee6',
   answer: 'Ahora atenderemos tu solicitud\n¿Cuál es tu nombre?',
   options: {
     media: null,
@@ -320,11 +320,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'c067b4d6df08d5bc4cf4fa27fa49606f'
+  refSerialize: 'eb42d0d2b844a396684cc31dde222643'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c33044d4-9f88-4ebf-b138-ae516ba3b45b',
-  keyword: 'ans_04b04bdd-ca77-4648-857f-2c2cb7b157af',
+  ref: 'ans_a72770cd-7777-40f1-ad00-4293aa7d1bb3',
+  keyword: 'ans_c36bfe47-8997-4139-9548-a995a8280ee6',
   answer: 'Ahora atenderemos tu solicitud\n¿Cuál es tu nombre?',
   options: {
     media: null,
@@ -336,55 +336,55 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'c067b4d6df08d5bc4cf4fa27fa49606f'
+  refSerialize: 'eb42d0d2b844a396684cc31dde222643'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '59160793960@s.whatsapp.net',
     fromMe: false,
-    id: '3F07669C0019F7BEFAAAAF4B5941AF8D',
+    id: '5AAC54358381D70AE222350F8A87DDA2',
     participant: undefined
   },
-  messageTimestamp: 1694545199,
+  messageTimestamp: 1694546958,
   pushName: 'Angy Encinas',
   broadcast: false,
   message: Message {
-    conversation: 'S',
+    conversation: 'A',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'S',
+  body: 'A',
   from: '59160793960'
 }
 [sendProviderAndSave]:  {
-  ref: '31f9db0e-4ad6-4b56-a03b-7c6674f3aafd',
+  ref: '18443cd7-aaed-4331-a55c-66a83120f2b6',
   keyword: undefined,
-  answer: 'Encantado *S*, comencemos...',
+  answer: 'Encantado *A*, comencemos...',
   options: { media: null, buttons: [], capture: false, delay: 0 },
   from: '59160793960',
-  refSerialize: '4c1fa8b258431e9a7ae51d4e90ff6619'
+  refSerialize: '50d4d7b3ebe79586807d7b431f93c187'
 }
 [providerClass.sendMessage]:  {
-  ref: '31f9db0e-4ad6-4b56-a03b-7c6674f3aafd',
+  ref: '18443cd7-aaed-4331-a55c-66a83120f2b6',
   keyword: undefined,
-  answer: 'Encantado *S*, comencemos...',
+  answer: 'Encantado *A*, comencemos...',
   options: { media: null, buttons: [], capture: false, delay: 0 },
   from: '59160793960',
-  refSerialize: '4c1fa8b258431e9a7ae51d4e90ff6619'
+  refSerialize: '50d4d7b3ebe79586807d7b431f93c187'
 }
 [databaseClass.save]:  {
-  ref: '31f9db0e-4ad6-4b56-a03b-7c6674f3aafd',
+  ref: '18443cd7-aaed-4331-a55c-66a83120f2b6',
   keyword: undefined,
-  answer: 'Encantado *S*, comencemos...',
+  answer: 'Encantado *A*, comencemos...',
   options: { media: null, buttons: [], capture: false, delay: 0 },
   from: '59160793960',
-  refSerialize: '4c1fa8b258431e9a7ae51d4e90ff6619'
+  refSerialize: '50d4d7b3ebe79586807d7b431f93c187'
 }
 [sendQueue_A]:  {
-  ref: 'ans_90bd05e9-f485-4f0b-be6f-5283f3b1fafc',
-  keyword: 'ans_c33044d4-9f88-4ebf-b138-ae516ba3b45b',
+  ref: 'ans_87180267-008e-4942-b5df-f26be941aea7',
+  keyword: 'ans_a72770cd-7777-40f1-ad00-4293aa7d1bb3',
   answer: '¿Cuál es el monto que deseas solicitar?',
   options: {
     media: null,
@@ -396,11 +396,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'e6d0456b48486dd70c1cf099e66b8bd2'
+  refSerialize: '4ed682f27acde8c7e2c478cdf23e5a87'
 }
 [sendProviderAndSave]:  {
-  ref: 'ans_90bd05e9-f485-4f0b-be6f-5283f3b1fafc',
-  keyword: 'ans_c33044d4-9f88-4ebf-b138-ae516ba3b45b',
+  ref: 'ans_87180267-008e-4942-b5df-f26be941aea7',
+  keyword: 'ans_a72770cd-7777-40f1-ad00-4293aa7d1bb3',
   answer: '¿Cuál es el monto que deseas solicitar?',
   options: {
     media: null,
@@ -412,11 +412,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'e6d0456b48486dd70c1cf099e66b8bd2'
+  refSerialize: '4ed682f27acde8c7e2c478cdf23e5a87'
 }
 [providerClass.sendMessage]:  {
-  ref: 'ans_90bd05e9-f485-4f0b-be6f-5283f3b1fafc',
-  keyword: 'ans_c33044d4-9f88-4ebf-b138-ae516ba3b45b',
+  ref: 'ans_87180267-008e-4942-b5df-f26be941aea7',
+  keyword: 'ans_a72770cd-7777-40f1-ad00-4293aa7d1bb3',
   answer: '¿Cuál es el monto que deseas solicitar?',
   options: {
     media: null,
@@ -428,11 +428,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'e6d0456b48486dd70c1cf099e66b8bd2'
+  refSerialize: '4ed682f27acde8c7e2c478cdf23e5a87'
 }
 [databaseClass.save]:  {
-  ref: 'ans_90bd05e9-f485-4f0b-be6f-5283f3b1fafc',
-  keyword: 'ans_c33044d4-9f88-4ebf-b138-ae516ba3b45b',
+  ref: 'ans_87180267-008e-4942-b5df-f26be941aea7',
+  keyword: 'ans_a72770cd-7777-40f1-ad00-4293aa7d1bb3',
   answer: '¿Cuál es el monto que deseas solicitar?',
   options: {
     media: null,
@@ -444,11 +444,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'e6d0456b48486dd70c1cf099e66b8bd2'
+  refSerialize: '4ed682f27acde8c7e2c478cdf23e5a87'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_90bd05e9-f485-4f0b-be6f-5283f3b1fafc',
-  keyword: 'ans_c33044d4-9f88-4ebf-b138-ae516ba3b45b',
+  ref: 'ans_87180267-008e-4942-b5df-f26be941aea7',
+  keyword: 'ans_a72770cd-7777-40f1-ad00-4293aa7d1bb3',
   answer: '¿Cuál es el monto que deseas solicitar?',
   options: {
     media: null,
@@ -460,30 +460,30 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'e6d0456b48486dd70c1cf099e66b8bd2'
+  refSerialize: '4ed682f27acde8c7e2c478cdf23e5a87'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '59160793960@s.whatsapp.net',
     fromMe: false,
-    id: 'C7F5C87826AFA6216397BEEA29DB3A49',
+    id: '422FE9A9AC3D7127D7150278F1447C94',
     participant: undefined
   },
-  messageTimestamp: 1694545200,
+  messageTimestamp: 1694546962,
   pushName: 'Angy Encinas',
   broadcast: false,
   message: Message {
-    conversation: '12',
+    conversation: '3',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '12',
+  body: '3',
   from: '59160793960'
 }
 [sendProviderAndSave]:  {
-  ref: '45a7fdbc-84e6-44c5-9b13-9c7260f38f64',
+  ref: '0e534d23-2c0b-431a-8bf3-f1e57093881d',
   keyword: undefined,
   answer: 'Perfecto...',
   options: { media: null, buttons: [], capture: false, delay: 0 },
@@ -491,7 +491,7 @@
   refSerialize: 'a44998803bdaaae2098be5440264f587'
 }
 [providerClass.sendMessage]:  {
-  ref: '45a7fdbc-84e6-44c5-9b13-9c7260f38f64',
+  ref: '0e534d23-2c0b-431a-8bf3-f1e57093881d',
   keyword: undefined,
   answer: 'Perfecto...',
   options: { media: null, buttons: [], capture: false, delay: 0 },
@@ -499,7 +499,7 @@
   refSerialize: 'a44998803bdaaae2098be5440264f587'
 }
 [databaseClass.save]:  {
-  ref: '45a7fdbc-84e6-44c5-9b13-9c7260f38f64',
+  ref: '0e534d23-2c0b-431a-8bf3-f1e57093881d',
   keyword: undefined,
   answer: 'Perfecto...',
   options: { media: null, buttons: [], capture: false, delay: 0 },
@@ -507,8 +507,8 @@
   refSerialize: 'a44998803bdaaae2098be5440264f587'
 }
 [sendQueue_A]:  {
-  ref: 'ans_aab4ca39-4a6d-4822-a7dc-0a02fb384dd7',
-  keyword: 'ans_90bd05e9-f485-4f0b-be6f-5283f3b1fafc',
+  ref: 'ans_53989f02-ff12-4bde-ba30-d0e4d2b94690',
+  keyword: 'ans_87180267-008e-4942-b5df-f26be941aea7',
   answer: '¿Se encuentra en la ciudad de Cochabamba?',
   options: {
     media: null,
@@ -520,11 +520,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '82f6a6f62d94cd1b119350f699b17fc2'
+  refSerialize: '63fb9d14d4d402b46f81f697f4c5efb5'
 }
 [sendProviderAndSave]:  {
-  ref: 'ans_aab4ca39-4a6d-4822-a7dc-0a02fb384dd7',
-  keyword: 'ans_90bd05e9-f485-4f0b-be6f-5283f3b1fafc',
+  ref: 'ans_53989f02-ff12-4bde-ba30-d0e4d2b94690',
+  keyword: 'ans_87180267-008e-4942-b5df-f26be941aea7',
   answer: '¿Se encuentra en la ciudad de Cochabamba?',
   options: {
     media: null,
@@ -536,11 +536,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '82f6a6f62d94cd1b119350f699b17fc2'
+  refSerialize: '63fb9d14d4d402b46f81f697f4c5efb5'
 }
 [providerClass.sendMessage]:  {
-  ref: 'ans_aab4ca39-4a6d-4822-a7dc-0a02fb384dd7',
-  keyword: 'ans_90bd05e9-f485-4f0b-be6f-5283f3b1fafc',
+  ref: 'ans_53989f02-ff12-4bde-ba30-d0e4d2b94690',
+  keyword: 'ans_87180267-008e-4942-b5df-f26be941aea7',
   answer: '¿Se encuentra en la ciudad de Cochabamba?',
   options: {
     media: null,
@@ -552,11 +552,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '82f6a6f62d94cd1b119350f699b17fc2'
+  refSerialize: '63fb9d14d4d402b46f81f697f4c5efb5'
 }
 [databaseClass.save]:  {
-  ref: 'ans_aab4ca39-4a6d-4822-a7dc-0a02fb384dd7',
-  keyword: 'ans_90bd05e9-f485-4f0b-be6f-5283f3b1fafc',
+  ref: 'ans_53989f02-ff12-4bde-ba30-d0e4d2b94690',
+  keyword: 'ans_87180267-008e-4942-b5df-f26be941aea7',
   answer: '¿Se encuentra en la ciudad de Cochabamba?',
   options: {
     media: null,
@@ -568,11 +568,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '82f6a6f62d94cd1b119350f699b17fc2'
+  refSerialize: '63fb9d14d4d402b46f81f697f4c5efb5'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_aab4ca39-4a6d-4822-a7dc-0a02fb384dd7',
-  keyword: 'ans_90bd05e9-f485-4f0b-be6f-5283f3b1fafc',
+  ref: 'ans_53989f02-ff12-4bde-ba30-d0e4d2b94690',
+  keyword: 'ans_87180267-008e-4942-b5df-f26be941aea7',
   answer: '¿Se encuentra en la ciudad de Cochabamba?',
   options: {
     media: null,
@@ -584,16 +584,16 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '82f6a6f62d94cd1b119350f699b17fc2'
+  refSerialize: '63fb9d14d4d402b46f81f697f4c5efb5'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '59160793960@s.whatsapp.net',
     fromMe: false,
-    id: '36B96ED925031504D3254898ED7AFF38',
+    id: 'D031B8D3A1AD7D4DCDE845586F3C8BAF',
     participant: undefined
   },
-  messageTimestamp: 1694545204,
+  messageTimestamp: 1694546965,
   pushName: 'Angy Encinas',
   broadcast: false,
   message: Message {
@@ -607,7 +607,7 @@
   from: '59160793960'
 }
 [sendProviderAndSave]:  {
-  ref: 'cb611b01-a6c4-4e8c-a474-e3d889825685',
+  ref: '0700fa09-50d8-49f7-81c9-1cadc1797f98',
   keyword: undefined,
   answer: 'Perfecto continuamos..',
   options: { media: null, buttons: [], capture: false, delay: 0 },
@@ -615,7 +615,7 @@
   refSerialize: 'a0801828558446758e9b11ea22587173'
 }
 [providerClass.sendMessage]:  {
-  ref: 'cb611b01-a6c4-4e8c-a474-e3d889825685',
+  ref: '0700fa09-50d8-49f7-81c9-1cadc1797f98',
   keyword: undefined,
   answer: 'Perfecto continuamos..',
   options: { media: null, buttons: [], capture: false, delay: 0 },
@@ -623,7 +623,7 @@
   refSerialize: 'a0801828558446758e9b11ea22587173'
 }
 [databaseClass.save]:  {
-  ref: 'cb611b01-a6c4-4e8c-a474-e3d889825685',
+  ref: '0700fa09-50d8-49f7-81c9-1cadc1797f98',
   keyword: undefined,
   answer: 'Perfecto continuamos..',
   options: { media: null, buttons: [], capture: false, delay: 0 },
@@ -631,8 +631,8 @@
   refSerialize: 'a0801828558446758e9b11ea22587173'
 }
 [sendQueue_A]:  {
-  ref: 'ans_f38b3649-2638-42a0-ad78-39dbe924277b',
-  keyword: 'ans_aab4ca39-4a6d-4822-a7dc-0a02fb384dd7',
+  ref: 'ans_6fed3143-a3ec-4ac9-9033-81534b02c46e',
+  keyword: 'ans_53989f02-ff12-4bde-ba30-d0e4d2b94690',
   answer: 'Nuestro único requisito para acceder al préstamo es contar con una garantía que supere el monto que nos solicitó\n' +
     'Escoja el tipo de garantia con el que cuenta\n' +
     '*1* Para Joyeria\n' +
@@ -644,15 +644,21 @@
     capture: false,
     child: null,
     delay: 0,
-    nested: [ [Object], [Object] ],
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
     keyword: {},
     callback: false
   },
-  refSerialize: 'b0c402e9dfe6bc8909494d65a812ed3b'
+  refSerialize: '8c7751dd0400ff0453ac405214dfa111'
 }
 [sendProviderAndSave]:  {
-  ref: 'ans_f38b3649-2638-42a0-ad78-39dbe924277b',
-  keyword: 'ans_aab4ca39-4a6d-4822-a7dc-0a02fb384dd7',
+  ref: 'ans_6fed3143-a3ec-4ac9-9033-81534b02c46e',
+  keyword: 'ans_53989f02-ff12-4bde-ba30-d0e4d2b94690',
   answer: 'Nuestro único requisito para acceder al préstamo es contar con una garantía que supere el monto que nos solicitó\n' +
     'Escoja el tipo de garantia con el que cuenta\n' +
     '*1* Para Joyeria\n' +
@@ -664,15 +670,21 @@
     capture: false,
     child: null,
     delay: 0,
-    nested: [ [Object], [Object] ],
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
     keyword: {},
     callback: false
   },
-  refSerialize: 'b0c402e9dfe6bc8909494d65a812ed3b'
+  refSerialize: '8c7751dd0400ff0453ac405214dfa111'
 }
 [providerClass.sendMessage]:  {
-  ref: 'ans_f38b3649-2638-42a0-ad78-39dbe924277b',
-  keyword: 'ans_aab4ca39-4a6d-4822-a7dc-0a02fb384dd7',
+  ref: 'ans_6fed3143-a3ec-4ac9-9033-81534b02c46e',
+  keyword: 'ans_53989f02-ff12-4bde-ba30-d0e4d2b94690',
   answer: 'Nuestro único requisito para acceder al préstamo es contar con una garantía que supere el monto que nos solicitó\n' +
     'Escoja el tipo de garantia con el que cuenta\n' +
     '*1* Para Joyeria\n' +
@@ -684,15 +696,21 @@
     capture: false,
     child: null,
     delay: 0,
-    nested: [ [Object], [Object] ],
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
     keyword: {},
     callback: false
   },
-  refSerialize: 'b0c402e9dfe6bc8909494d65a812ed3b'
+  refSerialize: '8c7751dd0400ff0453ac405214dfa111'
 }
 [databaseClass.save]:  {
-  ref: 'ans_f38b3649-2638-42a0-ad78-39dbe924277b',
-  keyword: 'ans_aab4ca39-4a6d-4822-a7dc-0a02fb384dd7',
+  ref: 'ans_6fed3143-a3ec-4ac9-9033-81534b02c46e',
+  keyword: 'ans_53989f02-ff12-4bde-ba30-d0e4d2b94690',
   answer: 'Nuestro único requisito para acceder al préstamo es contar con una garantía que supere el monto que nos solicitó\n' +
     'Escoja el tipo de garantia con el que cuenta\n' +
     '*1* Para Joyeria\n' +
@@ -704,15 +722,21 @@
     capture: false,
     child: null,
     delay: 0,
-    nested: [ [Object], [Object] ],
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
     keyword: {},
     callback: false
   },
-  refSerialize: 'b0c402e9dfe6bc8909494d65a812ed3b'
+  refSerialize: '8c7751dd0400ff0453ac405214dfa111'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_f38b3649-2638-42a0-ad78-39dbe924277b',
-  keyword: 'ans_aab4ca39-4a6d-4822-a7dc-0a02fb384dd7',
+  ref: 'ans_6fed3143-a3ec-4ac9-9033-81534b02c46e',
+  keyword: 'ans_53989f02-ff12-4bde-ba30-d0e4d2b94690',
   answer: 'Nuestro único requisito para acceder al préstamo es contar con una garantía que supere el monto que nos solicitó\n' +
     'Escoja el tipo de garantia con el que cuenta\n' +
     '*1* Para Joyeria\n' +
@@ -724,20 +748,26 @@
     capture: false,
     child: null,
     delay: 0,
-    nested: [ [Object], [Object] ],
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
     keyword: {},
     callback: false
   },
-  refSerialize: 'b0c402e9dfe6bc8909494d65a812ed3b'
+  refSerialize: '8c7751dd0400ff0453ac405214dfa111'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '59160793960@s.whatsapp.net',
     fromMe: false,
-    id: 'F7E6811E36FCA77982703F9BB94B3772',
+    id: '195533C91F565AEA95CE9B4DDECC7086',
     participant: undefined
   },
-  messageTimestamp: 1694545207,
+  messageTimestamp: 1694546969,
   pushName: 'Angy Encinas',
   broadcast: false,
   message: Message {
@@ -751,8 +781,8 @@
   from: '59160793960'
 }
 [sendQueue_A]:  {
-  ref: 'ans_8fe9db76-ce4b-4caf-aaf8-eccc3907452c',
-  keyword: 'key_e6a10ab4-6494-457c-b264-5056ba92ae61',
+  ref: 'ans_5baac26f-8d81-4eb1-a214-60d4b4387e52',
+  keyword: 'key_e32cf1d2-8057-4e39-a05d-dbf1e9864f83',
   answer: 'Perfecto👍🏼,  para poder validar tu garantía necesitamos:\n' +
     '✅Fotos actualizadas del estado actual del electrónico\n' +
     '✅Factura de compra( opcional)\n' +
@@ -767,11 +797,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'd3dbaa1e8d22f46abbd742edc53b33d8'
+  refSerialize: 'fc1afc9329503155023e03988d49c340'
 }
 [sendProviderAndSave]:  {
-  ref: 'ans_8fe9db76-ce4b-4caf-aaf8-eccc3907452c',
-  keyword: 'key_e6a10ab4-6494-457c-b264-5056ba92ae61',
+  ref: 'ans_5baac26f-8d81-4eb1-a214-60d4b4387e52',
+  keyword: 'key_e32cf1d2-8057-4e39-a05d-dbf1e9864f83',
   answer: 'Perfecto👍🏼,  para poder validar tu garantía necesitamos:\n' +
     '✅Fotos actualizadas del estado actual del electrónico\n' +
     '✅Factura de compra( opcional)\n' +
@@ -786,11 +816,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'd3dbaa1e8d22f46abbd742edc53b33d8'
+  refSerialize: 'fc1afc9329503155023e03988d49c340'
 }
 [providerClass.sendMessage]:  {
-  ref: 'ans_8fe9db76-ce4b-4caf-aaf8-eccc3907452c',
-  keyword: 'key_e6a10ab4-6494-457c-b264-5056ba92ae61',
+  ref: 'ans_5baac26f-8d81-4eb1-a214-60d4b4387e52',
+  keyword: 'key_e32cf1d2-8057-4e39-a05d-dbf1e9864f83',
   answer: 'Perfecto👍🏼,  para poder validar tu garantía necesitamos:\n' +
     '✅Fotos actualizadas del estado actual del electrónico\n' +
     '✅Factura de compra( opcional)\n' +
@@ -805,11 +835,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'd3dbaa1e8d22f46abbd742edc53b33d8'
+  refSerialize: 'fc1afc9329503155023e03988d49c340'
 }
 [databaseClass.save]:  {
-  ref: 'ans_8fe9db76-ce4b-4caf-aaf8-eccc3907452c',
-  keyword: 'key_e6a10ab4-6494-457c-b264-5056ba92ae61',
+  ref: 'ans_5baac26f-8d81-4eb1-a214-60d4b4387e52',
+  keyword: 'key_e32cf1d2-8057-4e39-a05d-dbf1e9864f83',
   answer: 'Perfecto👍🏼,  para poder validar tu garantía necesitamos:\n' +
     '✅Fotos actualizadas del estado actual del electrónico\n' +
     '✅Factura de compra( opcional)\n' +
@@ -824,11 +854,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'd3dbaa1e8d22f46abbd742edc53b33d8'
+  refSerialize: 'fc1afc9329503155023e03988d49c340'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8fe9db76-ce4b-4caf-aaf8-eccc3907452c',
-  keyword: 'key_e6a10ab4-6494-457c-b264-5056ba92ae61',
+  ref: 'ans_5baac26f-8d81-4eb1-a214-60d4b4387e52',
+  keyword: 'key_e32cf1d2-8057-4e39-a05d-dbf1e9864f83',
   answer: 'Perfecto👍🏼,  para poder validar tu garantía necesitamos:\n' +
     '✅Fotos actualizadas del estado actual del electrónico\n' +
     '✅Factura de compra( opcional)\n' +
@@ -843,5 +873,85 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'd3dbaa1e8d22f46abbd742edc53b33d8'
+  refSerialize: 'fc1afc9329503155023e03988d49c340'
+}
+[sendQueue_A]:  {
+  ref: 'ans_c31932ce-c8a4-41bc-bfd6-8078fceeb550',
+  keyword: 'ans_5baac26f-8d81-4eb1-a214-60d4b4387e52',
+  answer: 'Una vez enviadas las fotos y datos que te solicitamos te haremos llegar una tabla con la/las cuotas de pago con información exacta del interés por el préstamo',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '0fd8104bba3bfd07c9733dd126788ff8'
+}
+[sendProviderAndSave]:  {
+  ref: 'ans_c31932ce-c8a4-41bc-bfd6-8078fceeb550',
+  keyword: 'ans_5baac26f-8d81-4eb1-a214-60d4b4387e52',
+  answer: 'Una vez enviadas las fotos y datos que te solicitamos te haremos llegar una tabla con la/las cuotas de pago con información exacta del interés por el préstamo',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '0fd8104bba3bfd07c9733dd126788ff8'
+}
+[providerClass.sendMessage]:  {
+  ref: 'ans_c31932ce-c8a4-41bc-bfd6-8078fceeb550',
+  keyword: 'ans_5baac26f-8d81-4eb1-a214-60d4b4387e52',
+  answer: 'Una vez enviadas las fotos y datos que te solicitamos te haremos llegar una tabla con la/las cuotas de pago con información exacta del interés por el préstamo',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '0fd8104bba3bfd07c9733dd126788ff8'
+}
+[databaseClass.save]:  {
+  ref: 'ans_c31932ce-c8a4-41bc-bfd6-8078fceeb550',
+  keyword: 'ans_5baac26f-8d81-4eb1-a214-60d4b4387e52',
+  answer: 'Una vez enviadas las fotos y datos que te solicitamos te haremos llegar una tabla con la/las cuotas de pago con información exacta del interés por el préstamo',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '0fd8104bba3bfd07c9733dd126788ff8'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_c31932ce-c8a4-41bc-bfd6-8078fceeb550',
+  keyword: 'ans_5baac26f-8d81-4eb1-a214-60d4b4387e52',
+  answer: 'Una vez enviadas las fotos y datos que te solicitamos te haremos llegar una tabla con la/las cuotas de pago con información exacta del interés por el préstamo',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '0fd8104bba3bfd07c9733dd126788ff8'
 }
