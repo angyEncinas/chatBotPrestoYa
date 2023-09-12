@@ -9,7 +9,13 @@ const flowJoyeria = addKeyword(['joyas', '1']).addAnswer(
     '✅Fotos actualizadas de lo que se dejará como garantía ',
     '✅Carcteristicas de la joya: material y gramaje',
     '✅Si tiene una factura o alguna revisión dada por una joyería que certifique gramaje  y valor(Es opcional igualmente se hará revisar al momento del préstamo)'])
-
+const flowElectronicos = addKeyword(['electronicos','2']).addAnswer(
+    ['Perfecto👍🏼,  para poder validar tu garantía necesitamos:',
+    '✅Fotos actualizadas del estado actual del electrónico',
+    '✅Factura de compra( opcional)',
+    '✅ Características, modelo, año (si es un dispositivo electrónico enviar una foto de las especificaciones)'
+    ]
+)
 const flowNanny = addKeyword(['Soy Nanny', 'Nanny']).addAnswer(
     [
         'Perfecto 😊Gracias a la alianza que tenemos el único requisito es que estes habilitada por Nannys para realizar el préstamo, para esto necesitamos que llenes este formulario para poder evaluar tu solicitud de préstamo 💵 ',
@@ -138,8 +144,8 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo'])
     )
     .addAnswer(
         ['Nuestro único requisito para acceder al préstamo es contar con una garantía que supere el monto que nos solicitó','Escoja el tipo de garantia con el que cuenta','*1* Para Joyeria','*2* Para eléctronicos y objetos de valor','*3* Para Papeles de motorizado o inmueble'],
-        null,
-        null,
+        null,null,
+        [flowElectronicos],
         [flowJoyeria]
     )
 
