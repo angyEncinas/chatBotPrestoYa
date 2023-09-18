@@ -137,7 +137,7 @@ const flowFormulario = addKeyword(['formulario','⬅️ Volver al Inicio'])
         }
     )
 
-const flowPrincipal = addKeyword(['hola', 'ole', 'alo','Hola! Quiero un préstamo 💵'])
+const flowPrincipal = addKeyword(['ole', 'alo','Hola! Quiero un préstamo 💵'])
     .addAnswer('¡Hola! 😊 Gracias por contactarte con PrestoYa.💸 Estamos recibiendo una alta demanda de mensajes en este momento, *por lo que te pedimos paciencia.*⚠️')
     .addAnswer('Queremos informarte que en PrestoYa realizamos microprestamos *desde 100 bs hasta 14000 bs*,🤑 con plazos flexibles que van desde *1 día hasta 2 años*.')
     .addAnswer('El *UNICO REQUISITO* que solicitamos es *contar con una garantía* que supere el monto a ser prestado. Actualmente, nos encontramos en *Cochabamba*')
