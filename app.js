@@ -48,7 +48,7 @@ const flowNanny = addKeyword(['Soy Nanny', 'Nanny']).addAnswer(
 )
 const flowJelpi = addKeyword(['Soy Jelpi', 'Jelpi']).addAnswer(
     [
-        'Perfecto 😊Gracias a la alianza que tenemos el único requisito es que estes habilitada por Jelp para realizar el préstamo, para esto necesitamos que llenes este formulario para poder evaluar tu solicitud de préstamo 💵 ',
+        'Perfecto 😊Gracias a la alianza que tenemos el único requisito es que estes habilitada por Jelpi para realizar el préstamo, para esto necesitamos que llenes este formulario para poder evaluar tu solicitud de préstamo 💵 ',
         'https://forms.gle/c8BDyX1kUosSEPJV7',
         '*Será un placer ayudarte, por favor avísanos ni bien llenes el formulario y lo envies*',
     ],
