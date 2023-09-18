@@ -46,6 +46,15 @@ const flowNanny = addKeyword(['Soy Nanny', 'Nanny']).addAnswer(
     null,
     null
 )
+const flowJelpi = addKeyword(['Soy Jelpi', 'Jelpi']).addAnswer(
+    [
+        'Perfecto 😊Gracias a la alianza que tenemos el único requisito es que estes habilitada por Jelp para realizar el préstamo, para esto necesitamos que llenes este formulario para poder evaluar tu solicitud de préstamo 💵 ',
+        'https://forms.gle/c8BDyX1kUosSEPJV7',
+        '*Será un placer ayudarte, por favor avísanos ni bien llenes el formulario y lo envies*',
+    ],
+    null,
+    null
+)
 
 const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
     [
@@ -179,7 +188,7 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo','Hola! Quiero un préstam
 
 const main = async () => {
     const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowPrincipal,flowNanny])
+    const adapterFlow = createFlow([flowPrincipal,flowNanny,flowJelpi])
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({
