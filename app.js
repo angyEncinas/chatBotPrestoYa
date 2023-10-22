@@ -4,7 +4,7 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
-const flowJoyeria = addKeyword(['joyas', '1'])
+const flowJoyeria = addKeyword(['joyas', '1'] ,{ sensitive: true })
     .addAnswer(
         ['Perfecto👍🏼,  para poder validar tu garantía necesitamos:',
         '✅Fotos actualizadas de lo que se dejará como garantía ',
@@ -15,7 +15,7 @@ const flowJoyeria = addKeyword(['joyas', '1'])
     .addAnswer(
         ['Una vez enviadas las fotos y datos que te solicitamos te haremos llegar una tabla con la/las cuotas de pago con información exacta del interés por el préstamo']
     )
-const flowElectronicos = addKeyword(['electronicos','2'])
+const flowElectronicos = addKeyword(['electronicos','2'],{ sensitive: true })
     .addAnswer(
         ['Perfecto👍🏼,  para poder validar tu garantía necesitamos:',
         '✅Fotos actualizadas del estado actual del electrónico',
@@ -26,7 +26,7 @@ const flowElectronicos = addKeyword(['electronicos','2'])
     .addAnswer(
         ['Una vez enviadas las fotos y datos que te solicitamos te haremos llegar una tabla con la/las cuotas de pago con información exacta del interés por el préstamo']
     )
-const flowPapeles = addKeyword(['Papeles','3'])
+const flowPapeles = addKeyword(['Papeles','3'],{ sensitive: true })
     .addAnswer('Queremos informarte que esta modalidad de préstamo no es tan rápida ya que se deben revisar a detalle los papeles y su validez asi que te pedimos paciencia')
         .addAnswer(
         ['Perfecto👍🏼,  para poder validar tu garantía necesitamos:',
@@ -37,7 +37,7 @@ const flowPapeles = addKeyword(['Papeles','3'])
     .addAnswer(
         ['Una vez enviadas las fotos y datos que te solicitamos te haremos llegar una tabla con la/las cuotas de pago con información exacta del interés por el préstamo']
     )
-const flowNanny = addKeyword(['Soy Nanny', 'Nanny']).addAnswer(
+const flowNanny = addKeyword(['Soy Nanny', 'Nanny'],{ sensitive: true }).addAnswer(
     [
         'Perfecto 😊Gracias a la alianza que tenemos el único requisito es que estes habilitada por Nannys para realizar el préstamo, para esto necesitamos que llenes este formulario para poder evaluar tu solicitud de préstamo 💵 ',
         'https://forms.gle/qNAT6QZNsnR8tMRw8',
@@ -46,7 +46,7 @@ const flowNanny = addKeyword(['Soy Nanny', 'Nanny']).addAnswer(
     null,
     null
 )
-const flowJelpi = addKeyword(['Soy Jelpi', 'Jelpi']).addAnswer(
+const flowJelpi = addKeyword(['Soy Jelpi', 'Jelpi'],{ sensitive: true }).addAnswer(
     [
         'Perfecto 😊Gracias a la alianza que tenemos el único requisito es que estes habilitada por Jelpi para realizar el préstamo, para esto necesitamos que llenes este formulario para poder evaluar tu solicitud de préstamo 💵 ',
         'https://forms.gle/c8BDyX1kUosSEPJV7',
@@ -56,88 +56,11 @@ const flowJelpi = addKeyword(['Soy Jelpi', 'Jelpi']).addAnswer(
     null
 )
 
-const flowTuto = addKeyword(['tutorial', 'tuto']).addAnswer(
-    [
-        '🙌 Aquí encontras un ejemplo rapido',
-        'https://bot-whatsapp.netlify.app/docs/example/',
-        '\n*2* Para siguiente paso.',
-    ],
-    null,
-    null
-)
-
-const flowGracias = addKeyword(['gracias', 'grac']).addAnswer(
-    [
-        '🚀 Puedes aportar tu granito de arena a este proyecto',
-        '[*opencollective*] https://opencollective.com/bot-whatsapp',
-        '[*buymeacoffee*] https://www.buymeacoffee.com/leifermendez',
-        '[*patreon*] https://www.patreon.com/leifermendez',
-        '\n*2* Para siguiente paso.',
-    ],
-    null,
-    null
-)
-
-const flowDiscord = addKeyword(['discord']).addAnswer(
-    ['🤪 Únete al discord', 'https://link.codigoencasa.com/DISCORD', '\n*2* Para siguiente paso.'],
-    null,
-    null
-)
 let nombre;
 let monto;
 let tiempo;
 
-const flowFormulario = addKeyword(['formulario','⬅️ Volver al Inicio'])
-    .addAnswer(
-        ['Hola!','Para enviar el formulario necesito unos datos...' ,'Escriba su *Nombre*'],
-        { capture: true, buttons: [{ body: '❌ Cancelar solicitud' }] },
-
-        async (ctx, { flowDynamic, endFlow }) => {
-            if (ctx.body == '❌ Cancelar solicitud')
-             return endFlow({body: '❌ Su solicitud ha sido cancelada ❌',    // Aquí terminamos el flow si la condicion se comple
-                 buttons:[{body:'⬅️ Volver al Inicio' }]                      // Y además, añadimos un botón por si necesitas derivarlo a otro flow
-
-            
-            })
-            nombre = ctx.body
-            return flowDynamic(`Encantado *${nombre}*, continuamos...`)
-        }
-    )
-    .addAnswer(
-        ['También necesito tus dos apellidos'],
-        { capture: true, buttons: [{ body: '❌ Cancelar solicitud' }] },
-
-        async (ctx, { flowDynamic, endFlow }) => {
-            if (ctx.body == '❌ Cancelar solicitud') 
-                return endFlow({body: '❌ Su solicitud ha sido cancelada ❌',
-                    buttons:[{body:'⬅️ Volver al Inicio' }]
-
-
-        })
-        apellidos = ctx.body
-        return flowDynamic(`Perfecto *${nombre}*, por último...`)
-        }
-    )
-    .addAnswer(
-        ['Dejeme su número de teléfono y le llamaré lo antes posible.'],
-        { capture: true, buttons: [{ body: '❌ Cancelar solicitud' }] },
-
-        async (ctx, { flowDynamic, endFlow }) => {
-            if (ctx.body == '❌ Cancelar solicitud') 
-                return endFlow({body: '❌ Su solicitud ha sido cancelada ❌',
-                      buttons:[{body:'⬅️ Volver al Inicio' }]
-                })
-
-
-                telefono = ctx.body
-                await delay(2000)
-                return flowDynamic(`Estupendo *${nombre}*! te dejo el resumen de tu formulario
-                \n- Nombre y apellidos: *${nombre} ${apellidos}*
-                \n- Telefono: *${telefono}*`)
-        }
-    )
-
-const flowPrincipal = addKeyword(['ole', 'alo','Hola! Quiero un préstamo 💵'])
+const flowPrincipal = addKeyword(['ole', 'alo','Hola! Quiero un préstamo 💵'],{ sensitive: true })
     .addAnswer('¡Hola! 😊 Gracias por contactarte con PrestoYa.💸 Estamos recibiendo una alta demanda de mensajes en este momento, *por lo que te pedimos paciencia.*⚠️')
     .addAnswer('Queremos informarte que en PrestoYa realizamos microprestamos *desde 100 bs hasta 14000 bs*,🤑 con plazos flexibles que van desde *1 día hasta 2 años*.')
     .addAnswer('El *UNICO REQUISITO* que solicitamos es *contar con una garantía* que supere el monto a ser prestado. Actualmente, nos encontramos en *Cochabamba*')
