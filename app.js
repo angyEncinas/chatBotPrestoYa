@@ -37,7 +37,7 @@ const flowPapeles = addKeyword(['Papeles','3'],{ sensitive: true })
     .addAnswer(
         ['Una vez enviadas las fotos y datos que te solicitamos te haremos llegar una tabla con la/las cuotas de pago con información exacta del interés por el préstamo']
     )
-const flowNanny = addKeyword(['Soy Nanny', 'Nanny'],{ sensitive: true }).addAnswer(
+const flowNanny = addKeyword(['Soy Nanny'],{ sensitive: true }).addAnswer(
     [
         'Perfecto 😊Gracias a la alianza que tenemos el único requisito es que estes habilitada por Nannys para realizar el préstamo, para esto necesitamos que llenes este formulario para poder evaluar tu solicitud de préstamo 💵 ',
         'https://forms.gle/qNAT6QZNsnR8tMRw8',
@@ -46,7 +46,7 @@ const flowNanny = addKeyword(['Soy Nanny', 'Nanny'],{ sensitive: true }).addAnsw
     null,
     null
 )
-const flowJelpi = addKeyword(['Soy Jelpi', 'Jelpi'],{ sensitive: true }).addAnswer(
+const flowJelpi = addKeyword(['Soy Jelpi'],{ sensitive: true }).addAnswer(
     [
         'Perfecto 😊Gracias a la alianza que tenemos el único requisito es que estes habilitada por Jelpi para realizar el préstamo, para esto necesitamos que llenes este formulario para poder evaluar tu solicitud de préstamo 💵 ',
         'https://forms.gle/c8BDyX1kUosSEPJV7',
